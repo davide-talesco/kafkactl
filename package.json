@@ -1,0 +1,30 @@
+{
+  "name": "kafkactl",
+  "version": "1.0.0",
+  "description": "a cli too to interact with kafka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "kafkactl": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davide-talesco/kafkactl.git"
+  },
+  "keywords": [
+    "kafka",
+    "cli"
+  ],
+  "author": "davide talesco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davide-talesco/kafkactl/issues"
+  },
+  "homepage": "https://github.com/davide-talesco/kafkactl#readme",
+  "dependencies": {
+    "node-rdkafka": "^2.4.1",
+    "yargs": "^12.0.1"
+  }
+}
